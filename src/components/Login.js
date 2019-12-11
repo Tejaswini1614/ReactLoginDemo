@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import '../assets/common.css';
 export default class Login extends Component {
+    handleSubmit=()=>{
+    }
     render() {
         return (
         
@@ -13,7 +15,7 @@ export default class Login extends Component {
             <input type="text" placeholder="Enter Address" name="psw-repeat" required/><br/>
 
 
-    <button type="submit" class="registerbtn">Login</button>
+    <button type="submit" onClick={this.handleSubmit} class="registerbtn">Login</button>
    
     </div>
             </div>
